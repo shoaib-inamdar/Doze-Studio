@@ -99,7 +99,7 @@
         var imageloaded = 0;
         function preloader() {
             for (var i = 1;i <= frames.maxindex;i++) {
-                const imageurl = `./bankai/frame_${i.toString().padStart(4, "0")}.jpeg`
+                const imageurl = `./images/frame_${i.toString().padStart(4, "0")}.jpeg`
                 const img = new Image();
                 img.src = imageurl
                 img.onload = () => {
